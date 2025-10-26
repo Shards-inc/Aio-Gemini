@@ -1,0 +1,8 @@
+{
+  "name": "Gemini Feature Showcase",
+  "description": "An interactive showcase of the Gemini API's capabilities, from image and video generation to real-time conversational AI and data grounding with Google Search and Maps.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
