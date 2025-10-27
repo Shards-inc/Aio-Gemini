@@ -5,6 +5,8 @@ import * as geminiService from './services/geminiService';
 import { fileToBase64 } from './utils/fileUtils';
 import { decode, encode, decodeAudioData } from './utils/audioUtils';
 import type { LiveServerMessage, Blob, Chat, GenerateContentResponse } from '@google/genai';
+import { ConnectorDashboard } from './components/ConnectorDashboard';
+import { ConnectorIcon } from './components/connectorIcons';
 
 
 // --- HELPER COMPONENTS (defined outside main component) ---
@@ -630,6 +632,14 @@ const FEATURES: Feature[] = [
         icon: Icons.VoiceChatIcon,
         component: ChatbotFeature,
         docsLink: "https://ai.google.dev/gemini-api/docs/get-started/tutorial?lang=node#multi-turn-conversations-chat"
+    },
+    {
+        id: 'connectors',
+        title: 'Connector Management',
+        description: "Connect and manage integrations with 35+ external services. Configure credentials, test connections, and monitor status in real-time.",
+        icon: ConnectorIcon,
+        component: ConnectorDashboard,
+        docsLink: "https://github.com/ayais12210-hub/Aio-Gemini-/blob/main/CONNECTOR_ARCHITECTURE.md"
     }
 ];
 
