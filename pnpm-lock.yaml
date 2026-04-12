@@ -12,11 +12,11 @@ importers:
         specifier: ^1.46.0
         version: 1.46.0
       react:
-        specifier: ^19.2.0
-        version: 19.2.0
+        specifier: ^19.2.5
+        version: 19.2.5
       react-dom:
         specifier: ^19.2.0
-        version: 19.2.0(react@19.2.0)
+        version: 19.2.0(react@19.2.5)
     devDependencies:
       '@types/node':
         specifier: ^22.14.0
@@ -663,8 +663,8 @@ packages:
     resolution: {integrity: sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw==}
     engines: {node: '>=0.10.0'}
 
-  react@19.2.0:
-    resolution: {integrity: sha512-tmbWg6W31tQLeB5cdIBOicJDJRR2KzXsV7uSK9iNfLWQ5bIZfxuPEHp7M8wiHyHnn0DD1i7w3Zmin0FtkrwoCQ==}
+  react@19.2.5:
+    resolution: {integrity: sha512-llUJLzz1zTUBrskt2pwZgLq59AemifIftw4aB7JxOqf1HY2FDaGDxgwpAPVzHU1kdWabH7FauP4i1oEeer2WCA==}
     engines: {node: '>=0.10.0'}
 
   retry@0.13.1:
@@ -1322,14 +1322,14 @@ snapshots:
       '@types/node': 22.18.12
       long: 5.3.2
 
-  react-dom@19.2.0(react@19.2.0):
+  react-dom@19.2.0(react@19.2.5):
     dependencies:
-      react: 19.2.0
+      react: 19.2.5
       scheduler: 0.27.0
 
   react-refresh@0.18.0: {}
 
-  react@19.2.0: {}
+  react@19.2.5: {}
 
   retry@0.13.1: {}
 
